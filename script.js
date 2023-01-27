@@ -139,3 +139,11 @@ function isEmpty(tsk){
     }
 
 }
+
+var loaderPg = document.getElementById("loader");
+
+let id = setTimeout(dis,4000);
+
+function dis(){
+    loaderPg.style.display = "none";
+}
